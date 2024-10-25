@@ -1,0 +1,4 @@
+server/venv
+server/uploads
+DeepSync/node_modules
+DeepSync/.vscode
