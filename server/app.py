@@ -25,6 +25,7 @@ def deepfake_detection():
 
     # Here you would integrate your deepfake detection logic
     # For now, we will return a mock response
+    
     result = {
         # Randomly simulating detection
         'isDeepfake': os.urandom(1)[0] % 2 == 0,
