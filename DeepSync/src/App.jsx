@@ -36,14 +36,14 @@ const App = () => {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="main">
       <h1>Deepfake Detection</h1>
       <form onSubmit={handleSubmit} id="submit_form">
         <input
           id="video_input"
           type="file"
           onChange={handleFileChange}
-          accept="image/*"
+          accept="video/*"
           required
         />
         <button id="sumbit_button" type="submit" disabled={loading}>
